@@ -8,7 +8,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 def SumEvenFibonacci(i,j,max):
     x = i * ((i%2)^1)
-    if (i < max):
+    if (j < max):
         return x + SumEvenFibonacci(j,i+j,max)
     else:
         return x
